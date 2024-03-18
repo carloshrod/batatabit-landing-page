@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // ********** Navigation buttons event listeners - Plans **********
   const plansSlider = document.querySelector(".plans-container--slider");
   const plansSlides = document.querySelectorAll(".plan-slide");
-  let currentPlanSlide = 0;
+  let currentPlanSlide = 1;
   let plansStartX, plansEndX;
 
   function showPlanSlide(n) {
